@@ -129,6 +129,7 @@ label{
     align-items: center;
     justify-content: space-between;
     margin-bottom: 1em;
+    max-width: 100%;
 }
 
 .footer-img{
@@ -172,4 +173,13 @@ input{
     padding: 0.5rem;
     border-bottom: 2px solid white;
     
+}
+
+.footer-img{
+    width: 3em;
+}
+
+.footer-bar{
+    max-width: 100%;
+    flex-wrap: nowrap;
 }
